@@ -97,16 +97,3 @@ async def log_calories(request: CalorieLogRequest, current_user: Dict[str, Any] 
     )
 
     return {"message": "Calories logged", "today_calories": result["total_calories"]}
-
-@router.put("/goal")
-async def update_goal(request: GoalUpdateRequest, current_user: Dict[str, Any] = Depends(get_current_user)):
-    db = get_db()
-    users_collection = db["users"]
-    email = current_user["email"]
-
-    users_collection.update_one(
-        {"email": email},
-        {"$set": {"daily_calorie_goal": request.goal}}
-    )
-
-    return {"message": "Goal updated successfully", "new_goal": request.goal}

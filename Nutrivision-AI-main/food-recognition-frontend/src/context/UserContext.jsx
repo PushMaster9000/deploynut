@@ -11,14 +11,10 @@ export function UserProvider({ children }) {
     const fetchCurrentUser = async () => {
       try {
         // Fallback checks both keys just in case
-        const token = localStorage.getItem('user_token') || localStorage.getItem('access_token');
+        const token = localStorage.getItem('user_token');
         if (token) {
-          // Explicitly attach token to bypass any client.js interceptor bugs
-          const response = await apiClient.get('/api/auth/me', {
-             headers: { Authorization: `Bearer ${token}` }
-          });
+          const response = await apiClient.get('/api/auth/me');
           setUser({ ...response.data, name: response.data.username });
-          localStorage.setItem('user_token', token); // align keys safely
         }
       } catch (error) {
         console.warn("Old or invalid token cleared safely."); // The 401 will just trigger this and move on safely!

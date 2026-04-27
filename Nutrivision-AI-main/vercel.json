@@ -19,8 +19,8 @@
       "destination": "/api/index.py"
     },
     {
-      "source": "/(.*)",
-      "destination": "/food-recognition-frontend/$1"
+      "source": "/((?!api/).*)",
+      "destination": "/food-recognition-frontend/index.html"
     }
   ]
 }

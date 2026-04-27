@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
-import { AuthProvider } from './context/AuthContext';
 import { UserProvider } from './context/UserContext';
 import LandingPage from './pages/LandingPage';
 import Login from './pages/Login';
@@ -18,7 +17,6 @@ import CommunityHub from './pages/CommunityHub';
 export default function App() {
   return (
     <ThemeProvider>
-      <AuthProvider>
         <UserProvider>
           <BrowserRouter>
           <Routes>
@@ -29,18 +27,15 @@ export default function App() {
             <Route path="/dashboard" element={<DashboardLayout />}>
              <Route index element={<DashboardHome />} />
              <Route path="scan" element={<ScanPage />} />
-             {/* NEW ROUTE */}
              <Route path="generate-recipes" element={<GenerateRecipes />} />
-             <Route path="recipes" element={<MyRecipes />} />
-             <Route path="/dashboard/my-recipes" element={<MyRecipes />} />
-             <Route path="/dashboard/community" element={<CommunityHub />} />
+             <Route path="my-recipes" element={<MyRecipes />} />
+             <Route path="community" element={<CommunityHub />} />
              <Route path="history" element={<ScanHistory />} />
              <Route path="profile" element={<Profile />} />
           </Route>
           </Routes>
           </BrowserRouter>
         </UserProvider>
-      </AuthProvider>
     </ThemeProvider>
   );
 }

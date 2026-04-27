@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# Configure the Gemini API with your free key
-api_key = os.getenv("GEMINI_API_KEY")
+# Configure the Gemini API with your key
+api_key = os.getenv("GEMINI_API_KEY") or os.getenv("Gemini_API_KEY")
 if api_key:
     genai.configure(api_key=api_key)
 
@@ -38,10 +38,10 @@ def generate_recipes(ingredients: List[str], user_preferences: str = "") -> List
     user_prompt = f"I have these ingredients: {ingredients_list}. {preference_context}. Please make me a recipe!"
 
     try:
-        # 2. Setup the free Gemini 2.5 Flash model
+        # 2. Setup the free Gemini 1.5 Flash model
         # We enforce JSON output so it never breaks your frontend
         model = genai.GenerativeModel(
-            model_name='gemini-2.5-flash',
+            model_name='gemini-1.5-flash',
             system_instruction=system_instruction,
             generation_config={"response_mime_type": "application/json"}
         )

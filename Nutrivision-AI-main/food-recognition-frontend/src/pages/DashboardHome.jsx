@@ -34,8 +34,8 @@ export default function DashboardHome() {
       // AUTO LOGOUT IF TOKEN EXPIRES
       if (error.response && error.response.status === 401) {
         alert("Your session expired. Please log in again.");
-        localStorage.removeItem('token'); // Clear the dead token
-        navigate('/login'); // Send them to the login page
+        localStorage.removeItem('user_token'); 
+        navigate('/login'); 
       }
     }
   };

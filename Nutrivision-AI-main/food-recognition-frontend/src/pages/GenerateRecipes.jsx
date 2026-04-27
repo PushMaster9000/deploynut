@@ -113,12 +113,16 @@ export default function GenerateRecipes() {
         user_preferences: userMessage 
       });
 
+      if (!response.data.recipes || response.data.recipes.length === 0) {
+         throw new Error("No recipes were generated. Please try again with different ingredients.");
+      }
+
       const recipeData = response.data.recipes[0];
 
       setGeneratedRecipe({
-        title: recipeData.title,
+        title: recipeData.title || "AI Recipe",
         description: `A delicious AI-crafted meal using: ${recipeData.ingredients?.join(', ') || 'your selected ingredients'}.`,
-        calories: recipeData.calories,
+        calories: recipeData.calories || 0,
         ingredients: recipeData.ingredients || [],
         steps: recipeData.instructions || [],
         health_tags: recipeData.health_tags || []
@@ -126,7 +130,7 @@ export default function GenerateRecipes() {
 
       setMessages(prev => [...prev, { 
         role: 'ai', 
-        text: `Perfect! I've created **${recipeData.title}** taking all your details into account. The full recipe is ready on the right. Enjoy your meal!` 
+        text: `Perfect! I've created **${recipeData.title || "your recipe"}** taking all your details into account. The full recipe is ready on the right. Enjoy your meal!` 
       }]);
 
     } catch (error) {
