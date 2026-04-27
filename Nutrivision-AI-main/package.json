@@ -1,0 +1,9 @@
+{
+  "name": "nutrivision-ai-root",
+  "private": true,
+  "scripts": {
+    "install-frontend": "cd food-recognition-frontend && npm install",
+    "build": "cd food-recognition-frontend && npm run build",
+    "install": "npm run install-frontend"
+  }
+}
