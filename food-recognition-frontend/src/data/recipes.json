@@ -1,0 +1,1437 @@
+[
+  {
+    "id": 1,
+    "name": "Hyderabadi Chicken Biryani",
+    "time": "60 mins",
+    "calories": "550 kcal",
+    "health_tags": [
+      "high-protein",
+      "gluten-free"
+    ],
+    "image": "https://res.cloudinary.com/dnheisog3/image/upload/w_500,q_auto,f_auto/v1774033361/royal-rice-may-220461_e2ilgp.jpg",
+    "ingredients": [
+      "2 cups Basmati rice",
+      "500g Chicken (bone-in)",
+      "1 cup Yogurt",
+      "2 tbsp Ginger-garlic paste",
+      "1 large Onion (sliced and fried)",
+      "Biryani whole spices (cardamom, cloves, bay leaf)",
+      "Fresh mint and coriander leaves",
+      "Saffron soaked in warm milk"
+    ],
+    "instructions": [
+      "Marinate chicken with yogurt, ginger-garlic paste, half the fried onions, mint, and salt. Leave in the fridge for at least 2 hours.",
+      "Wash basmati rice until water runs clear, then soak for 30 minutes.",
+      "Boil a large pot of water with whole spices and lots of salt. Add soaked rice and cook until it is 70% done (still has a bite). Drain the water completely.",
+      "In a heavy-bottomed pot, spread the marinated chicken in a single layer at the bottom. Layer the hot, partially cooked rice directly over the raw chicken.",
+      "Top with remaining fried onions, coriander, and pour the saffron milk over the top. Seal the pot tightly with foil or dough.",
+      "Cook on medium-high for 10 minutes, then lower the flame to the absolute lowest setting and cook on 'dum' (steam) for 30 minutes. Rest for 10 minutes before opening."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Authentic Butter Chicken (Murgh Makhani)",
+    "time": "45 mins",
+    "calories": "480 kcal",
+    "health_tags": [
+      "high-protein",
+      "keto-friendly"
+    ],
+    "image": "https://res.cloudinary.com/dnheisog3/image/upload/w_500,q_auto,f_auto/v1774120105/butter-chicken-recipe_icpcib.jpg",
+    "ingredients": [
+      "500g Boneless chicken thighs",
+      "4 large Tomatoes (pureed)",
+      "10-12 Cashews (soaked)",
+      "1/2 cup Heavy cream",
+      "3 tbsp Butter",
+      "1 tbsp Garam masala",
+      "1 tbsp Kashmiri red chili powder",
+      "1 tsp Kasuri methi (dried fenugreek)"
+    ],
+    "instructions": [
+      "Marinate chicken chunks in thick yogurt, Kashmiri chili powder, ginger-garlic paste, and lemon juice for 1 hour.",
+      "Pan-fry or bake the marinated chicken on high heat until fully cooked and slightly charred. Set aside.",
+      "In a deep pan, melt 1 tbsp butter. Sauté roughly chopped onions, tomatoes, and soaked cashews until tomatoes are completely mushy.",
+      "Blend the tomato-cashew mixture into a fine, smooth paste. Strain it if you want a restaurant-style silky gravy.",
+      "Return the smooth puree to the pan. Add the remaining butter, cooked chicken, and simmer for 10 minutes until oil separates at the edges.",
+      "Turn off the heat. Stir in the heavy cream, garam masala, and crush the dried fenugreek leaves (kasuri methi) between your palms and sprinkle on top."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dhaba Style Palak Paneer",
+    "time": "30 mins",
+    "calories": "320 kcal",
+    "health_tags": [
+      "vegetarian",
+      "iron-rich"
+    ],
+    "image": "https://res.cloudinary.com/dnheisog3/image/upload/w_500,q_auto,f_auto/v1774120120/Palak-Paneer-500x500_oaljro.jpg",
+    "ingredients": [
+      "250g Paneer (cubed)",
+      "1 large bunch Fresh spinach (Palak)",
+      "1 medium Onion (finely chopped)",
+      "2 Tomatoes (finely chopped)",
+      "1 tsp Cumin seeds",
+      "3 cloves Garlic (minced)",
+      "2 tbsp Fresh cream"
+    ],
+    "instructions": [
+      "Boil water in a pot. Drop washed spinach leaves in for exactly 2 minutes (blanching). Immediately remove and submerge in ice-cold water to retain the bright green color.",
+      "Blend the cooled spinach and a green chili into a smooth puree without adding too much water.",
+      "In a pan, heat oil or ghee. Add cumin seeds and let them crackle. Add minced garlic and sauté until fragrant.",
+      "Add finely chopped onions and cook until golden brown. Add chopped tomatoes and cook until they break down and release oil.",
+      "Pour in the spinach puree, add salt and a pinch of garam masala. Simmer on low heat for 5 minutes (do not cover the pan, or it will lose its green color).",
+      "Gently fold in the paneer cubes. Turn off the heat and swirl in the fresh cream before serving."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Classic Masala Dosa",
+    "time": "40 mins",
+    "calories": "350 kcal",
+    "health_tags": [
+      "vegetarian",
+      "fermented"
+    ],
+    "image": "https://res.cloudinary.com/dnheisog3/image/upload/w_500,q_auto,f_auto/v1774120142/masala-dosa-recipe-500x500_my3wqa.jpg",
+    "ingredients": [
+      "3 cups Fermented dosa batter (rice and urad dal)",
+      "4 large Potatoes (boiled and peeled)",
+      "2 Onions (thinly sliced)",
+      "1 tsp Mustard seeds",
+      "1 sprig Curry leaves",
+      "1/2 tsp Turmeric powder",
+      "Ghee or oil for roasting"
+    ],
+    "instructions": [
+      "Prepare the potato filling (Masala): Heat oil in a pan, add mustard seeds and let them pop. Add curry leaves, green chilies, and sliced onions. Sauté until onions are soft but not brown.",
+      "Add turmeric powder and salt to the onions. Roughly mash the boiled potatoes and mix them into the pan. Cook for 2 minutes, garnish with coriander, and set aside.",
+      "Heat a cast-iron tawa or non-stick griddle until medium-hot. Sprinkle a few drops of water; if it sizzles and evaporates immediately, it's ready. Wipe the tawa with a clean cloth.",
+      "Pour a ladle full of batter in the center of the tawa. Using the back of the ladle, quickly spread it outward in a circular motion to make a thin crepe.",
+      "Drizzle 1 tsp of ghee or oil around the edges and center. Roast on medium heat until the bottom turns golden brown and crispy.",
+      "Place a portion of the potato masala in the center of the dosa, fold the edges over, and serve hot with chutney and sambar."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Punjabi Chole (Chickpea Curry)",
+    "time": "50 mins",
+    "calories": "420 kcal",
+    "health_tags": [
+      "vegetarian",
+      "high-fiber",
+      "vegan"
+    ],
+    "image": "https://res.cloudinary.com/dohxdxjdt/image/upload/w_500,q_auto,f_auto/v1774293559/IMG_0729-4-scaled_ql84w5.jpg",
+    "ingredients": [
+      "2 cups White chickpeas (Kabuli Chana)",
+      "2 large Onions (pureed or finely grated)",
+      "3 Tomatoes (pureed)",
+      "2 tbsp Chole masala powder",
+      "1 Black tea bag (for dark color)",
+      "1 tsp Cumin seeds",
+      "1 inch Ginger (julienned)"
+    ],
+    "instructions": [
+      "Wash and soak the chickpeas in water overnight (at least 8 hours).",
+      "Drain the water. Pressure cook the chickpeas with fresh water, salt, and a black tea bag for 4-5 whistles until they are completely soft and easily mashable. Discard the tea bag.",
+      "In a heavy-bottomed pan, heat oil. Add cumin seeds. Add the onion puree and roast patiently on medium heat until it turns a deep golden brown.",
+      "Add ginger-garlic paste and the tomato puree. Cook until the moisture evaporates and oil starts leaving the sides of the masala.",
+      "Add the Chole masala powder, red chili powder, and a pinch of turmeric. Roast for 1 minute.",
+      "Pour in the boiled chickpeas along with their dark cooking water. Simmer on medium-low heat for 15-20 minutes until the gravy thickens. Garnish with ginger juliennes."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Restaurant Style Dal Makhani",
+    "time": "4 hours",
+    "calories": "410 kcal",
+    "health_tags": [
+      "vegetarian",
+      "high-protein",
+      "gluten-free"
+    ],
+    "image": "https://res.cloudinary.com/dohxdxjdt/image/upload/w_500,q_auto,f_auto/v1774293911/dal-makhani7_u21tci.jpg",
+    "ingredients": [
+      "1 cup Whole black lentils (Urad dal)",
+      "1/4 cup Red kidney beans (Rajma)",
+      "1 cup Tomato puree",
+      "3 tbsp Butter",
+      "1/4 cup Heavy cream",
+      "1 tbsp Ginger-garlic paste",
+      "1 tsp Kashmiri red chili powder"
+    ],
+    "instructions": [
+      "Wash the black lentils and kidney beans rubbing them vigorously. Soak them together in plenty of water overnight.",
+      "Pressure cook the soaked lentils and beans with salt and water for 6-7 whistles until they are incredibly soft and mushy.",
+      "In a large heavy pot, heat butter. Add ginger-garlic paste and sauté for a minute. Add the tomato puree and Kashmiri chili powder.",
+      "Cook the tomato mixture until it reduces and releases butter.",
+      "Add the boiled lentils with their water. Bring to a boil, then reduce the heat to the absolute minimum. Let it simmer uncovered for at least 1 to 2 hours, stirring occasionally and lightly mashing the lentils against the side of the pot.",
+      "Once the dal reaches a creamy consistency, stir in the heavy cream and a pinch of garam masala. Serve hot."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Paneer Tikka Masala",
+    "time": "45 mins",
+    "calories": "450 kcal",
+    "health_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "image": "https://res.cloudinary.com/dohxdxjdt/image/upload/w_500,q_auto,f_auto/w_500,q_auto,f_auto/v1774323814/660bbc2bf96bfa42f8c93333_f0ef7b68-009e-4c37-bdd5-f67ca31339eb_soj0jc.webp",
+    "ingredients": [
+      "300g Paneer (cut into large cubes)",
+      "1 Bell pepper (cut into squares)",
+      "1 Onion (cut into squares)",
+      "1/2 cup Thick yogurt",
+      "2 tbsp Besan (gram flour)",
+      "1 cup Tomato puree",
+      "1/4 cup Cream",
+      "Tikka spices (cumin, coriander, turmeric, chili)"
+    ],
+    "instructions": [
+      "In a bowl, mix yogurt, roasted besan, ginger-garlic paste, a splash of mustard oil, and all the tikka spices. Add the paneer, bell pepper, and onion squares. Coat well and marinate for 30 minutes.",
+      "Skewer the marinated items or place them directly on a hot grill pan. Cook until all sides have dark, charred spots. Set aside.",
+      "In a separate pan, heat oil. Finely chop an onion and sauté until golden brown.",
+      "Add tomato puree and cook until the oil separates from the masala.",
+      "Add a splash of water and the cream to create a rich gravy. Gently drop in the grilled paneer and veggies.",
+      "Simmer for 5 minutes, garnish with fresh coriander, and serve."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Kashmiri Rogan Josh",
+    "time": "90 mins",
+    "calories": "580 kcal",
+    "health_tags": [
+      "high-protein",
+      "keto-friendly",
+      "gluten-free"
+    ],
+    "image": "https://res.cloudinary.com/dohxdxjdt/image/upload/w_500,q_auto,f_auto/v1777575259/Rogan_Josh_Kashmiri_jsa43s.jpg",
+    "ingredients": [
+      "500g Mutton or Lamb (bone-in pieces)",
+      "1/2 cup Whisked yogurt",
+      "2 tbsp Kashmiri red chili powder",
+      "1 tsp Fennel powder (Saunf)",
+      "1/2 tsp Dry ginger powder (Saunth)",
+      "Whole spices (cloves, black cardamom, cinnamon)",
+      "3 tbsp Mustard oil"
+    ],
+    "instructions": [
+      "Heat mustard oil in a heavy-bottomed pot until it smokes. Turn off the heat, let it cool slightly, then turn it back on to medium. Add the whole spices.",
+      "Add the mutton pieces. Fry them patiently for 10-15 minutes until they are well browned and sealed on all sides.",
+      "In a small bowl, mix the whisked yogurt with Kashmiri chili powder, fennel powder, and dry ginger powder. Lower the flame completely and add this yogurt mix to the meat.",
+      "Stir vigorously to prevent the yogurt from curdling. Cook until the yogurt blends in and the oil separates.",
+      "Add 2 cups of hot water. Cover the pot tightly and slow-cook on low heat for 60 to 75 minutes, or until the meat is incredibly tender and falling off the bone."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Homestyle Dal Tadka (Yellow Lentil)",
+    "time": "30 mins",
+    "calories": "280 kcal",
+    "health_tags": [
+      "vegetarian",
+      "high-protein",
+      "vegan-option"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1 cup Toor dal (split pigeon peas)",
+      "1 medium Tomato (chopped)",
+      "2 tbsp Ghee",
+      "1 tsp Cumin seeds",
+      "4 cloves Garlic (finely minced)",
+      "2 Dried red chilies",
+      "1/2 tsp Turmeric powder"
+    ],
+    "instructions": [
+      "Wash the toor dal thoroughly. Pressure cook it with 3 cups of water, chopped tomato, turmeric, and a pinch of salt for 3-4 whistles.",
+      "Let the pressure release naturally. Open and whisk the dal slightly to achieve a smooth consistency. Add warm water if it's too thick.",
+      "Prepare the Tadka (Tempering): Heat ghee in a small pan. Add cumin seeds and let them splutter.",
+      "Add the minced garlic and sauté until it starts turning golden brown. Add the dried red chilies.",
+      "Turn off the heat, immediately add a pinch of red chili powder to the hot ghee, and immediately pour the sizzling tadka over the cooked dal.",
+      "Cover the pot for 2 minutes to trap the aromas. Stir and serve hot with rice."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Malai Kofta",
+    "time": "50 mins",
+    "calories": "510 kcal",
+    "health_tags": [
+      "vegetarian",
+      "indulgent"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1 cup Grated paneer",
+      "2 Boiled potatoes (peeled and mashed)",
+      "3 tbsp Cornflour",
+      "Handful of cashews and raisins",
+      "2 large Onions (roughly chopped)",
+      "2 large Tomatoes (roughly chopped)",
+      "1/2 cup Heavy cream",
+      "Whole spices"
+    ],
+    "instructions": [
+      "Make the Koftas: Combine mashed potatoes, grated paneer, cornflour, and salt. Knead into a smooth dough. Take a small portion, flatten it, place a cashew and raisin in the center, and roll it into a smooth, crack-free ball.",
+      "Heat oil in a wok. Deep fry the kofta balls on medium heat until golden brown. Drain on paper towels.",
+      "Make the Gravy: In a pan, sauté roughly chopped onions, tomatoes, and cashews with whole spices until completely soft. Let it cool, then blend into a very smooth paste.",
+      "Heat a little oil in a pan, strain the blended paste into it (for a silky texture). Cook for 5 minutes.",
+      "Add water, salt, a pinch of sugar, and garam masala. Bring to a boil.",
+      "Turn off the heat, stir in the cream. Place the fried koftas in a serving dish and pour the hot gravy over them just before serving so they don't break."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Aloo Gobi (Potato & Cauliflower)",
+    "time": "35 mins",
+    "calories": "210 kcal",
+    "health_tags": [
+      "vegan",
+      "gluten-free",
+      "low-calorie"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1 medium Cauliflower (cut into florets)",
+      "2 large Potatoes (peeled and cubed)",
+      "1 Onion (finely chopped)",
+      "2 Tomatoes (chopped)",
+      "1 tsp Cumin seeds",
+      "1 tsp Turmeric",
+      "1 tsp Coriander powder",
+      "1 inch Ginger (grated)"
+    ],
+    "instructions": [
+      "Wash and completely dry the cauliflower florets and potato cubes.",
+      "In a wide pan, heat 2 tbsp oil. Pan-fry the potatoes for 5 minutes until edges are golden. Add the cauliflower and fry for another 5 minutes. Remove veggies from the pan and set aside.",
+      "In the same pan, add a little more oil. Add cumin seeds and let them splutter. Sauté the chopped onions and ginger until onions are translucent.",
+      "Add chopped tomatoes, turmeric, coriander powder, and salt. Cook until tomatoes are mushy.",
+      "Return the fried potatoes and cauliflower to the pan. Toss well to coat them in the masala.",
+      "Cover the pan with a tight lid, lower the heat, and let it cook in its own steam for 10-12 minutes until veggies are tender. Do not add water."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Bhindi Masala (Spiced Okra)",
+    "time": "25 mins",
+    "calories": "180 kcal",
+    "health_tags": [
+      "vegan",
+      "high-fiber",
+      "low-carb"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "500g Okra (Bhindi, washed and completely dried)",
+      "1 large Onion (sliced)",
+      "1 Tomato (chopped)",
+      "1 tsp Cumin seeds",
+      "1 tsp Coriander powder",
+      "1/2 tsp Amchur (Dry mango powder)",
+      "2 tbsp Oil"
+    ],
+    "instructions": [
+      "Crucial step: Wash the okra and wipe each pod completely dry with a kitchen towel before chopping. This prevents sliminess. Chop off the ends and cut into 1-inch pieces.",
+      "Heat 1 tbsp oil in a wide pan. Add the chopped okra and fry on medium-high heat for 8-10 minutes until the sliminess is gone and they shrink slightly. Remove and set aside.",
+      "In the same pan, heat remaining oil. Add cumin seeds, then add the sliced onions. Sauté until lightly browned.",
+      "Add the chopped tomatoes, turmeric, coriander powder, and salt. Cook until tomatoes are soft.",
+      "Add the fried okra back to the pan. Mix gently. Cook uncovered for 3-4 minutes.",
+      "Turn off the heat and sprinkle the amchur (mango powder) over the top and mix well. Serve hot with roti."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Rajma Chawal (Kidney Bean Curry)",
+    "time": "50 mins",
+    "calories": "380 kcal",
+    "health_tags": [
+      "vegetarian",
+      "high-protein",
+      "high-fiber"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1 cup Red kidney beans (Rajma)",
+      "2 Onions (finely grated)",
+      "3 Tomatoes (pureed)",
+      "1 tbsp Ginger-garlic paste",
+      "1 tsp Cumin seeds",
+      "1 tbsp Rajma Masala or Garam masala",
+      "Fresh coriander"
+    ],
+    "instructions": [
+      "Soak the kidney beans overnight. Drain and pressure cook with fresh water and salt for 5-6 whistles until completely soft.",
+      "Heat oil or ghee in a heavy pot. Add cumin seeds. Sauté the grated onions patiently until they turn deep golden brown.",
+      "Add ginger-garlic paste and cook for 1 minute. Add the tomato puree, turmeric, red chili powder, and Rajma masala.",
+      "Cook the masala until the oil separates from the sides (this bhuna process is key to good rajma).",
+      "Add the boiled kidney beans along with their cooking water. Bring to a boil, then lower the heat and simmer for 15-20 minutes to let the flavors meld.",
+      "Lightly mash a few beans against the side of the pot to thicken the gravy. Serve hot over steamed Basmati rice."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Kanda Poha",
+    "time": "15 mins",
+    "calories": "250 kcal",
+    "health_tags": [
+      "vegan",
+      "gluten-free",
+      "breakfast"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "2 cups Thick Poha (flattened rice)",
+      "1 Onion (finely chopped)",
+      "1 Potato (cut into tiny cubes)",
+      "1/4 cup Peanuts",
+      "1 tsp Mustard seeds",
+      "Curry leaves",
+      "1/2 tsp Turmeric",
+      "1 Lemon"
+    ],
+    "instructions": [
+      "Place the poha in a colander and gently rinse it under running water for 10 seconds. Do not soak it. Sprinkle a little salt and sugar over the wet poha and let it sit.",
+      "Heat oil in a pan. Fry the peanuts until crunchy, remove and set aside.",
+      "In the same oil, add mustard seeds and let them pop. Add curry leaves and green chilies.",
+      "Add the tiny potato cubes. Cover and cook for 3-4 minutes until the potatoes are soft.",
+      "Add chopped onions and sauté until translucent. Stir in the turmeric powder.",
+      "Add the softened poha and roasted peanuts to the pan. Toss gently so the poha doesn't break. Cover and steam on low heat for 2 minutes. Finish with a generous squeeze of lemon juice."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Homestyle Chicken Curry",
+    "time": "45 mins",
+    "calories": "390 kcal",
+    "health_tags": [
+      "high-protein",
+      "dairy-free",
+      "keto-friendly"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "500g Chicken (bone-in, cut into medium pieces)",
+      "2 large Onions (finely chopped)",
+      "2 Tomatoes (pureed)",
+      "1 tbsp Ginger-garlic paste",
+      "1 tsp Coriander powder",
+      "1/2 tsp Turmeric",
+      "Whole spices (cinnamon, cloves, cardamom)"
+    ],
+    "instructions": [
+      "Heat 3 tbsp oil in a heavy-bottomed pan. Add the whole spices and let them release their aroma.",
+      "Add the finely chopped onions. Sauté patiently on medium heat until they turn dark brown. This creates the base of the curry.",
+      "Add ginger-garlic paste and sauté for 1 minute. Add the chicken pieces and fry them with the onions for 5-7 minutes until the chicken turns white.",
+      "Add the turmeric, coriander powder, red chili powder, and salt. Toss well to coat the chicken.",
+      "Pour in the tomato puree. Cook for another 5 minutes until the tomatoes break down.",
+      "Add 1.5 cups of hot water. Cover and simmer on medium-low heat for 20 minutes until the chicken is tender. Garnish with fresh coriander."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Paneer Bhurji (Scrambled Paneer)",
+    "time": "15 mins",
+    "calories": "310 kcal",
+    "health_tags": [
+      "vegetarian",
+      "high-protein",
+      "low-carb",
+      "keto"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "200g Paneer (crumbled or freshly made)",
+      "1 Onion (finely chopped)",
+      "1 Tomato (finely chopped)",
+      "1/2 Capsicum/Bell Pepper (finely chopped)",
+      "1/2 tsp Cumin seeds",
+      "1/2 tsp Pav Bhaji Masala or Garam masala",
+      "Fresh coriander"
+    ],
+    "instructions": [
+      "Heat a little oil or butter in a pan. Add cumin seeds and let them crackle.",
+      "Add finely chopped onions and sauté until they turn translucent. Add green chilies and ginger.",
+      "Add chopped capsicum and sauté for 2 minutes. Then add chopped tomatoes, turmeric, and salt.",
+      "Cook until the tomatoes are soft and mushy. Add the Pav Bhaji masala (or garam masala) and mix well.",
+      "Add the crumbled paneer. Toss everything together and cook for just 2-3 minutes. Do not overcook, or the paneer will become rubbery.",
+      "Garnish generously with fresh coriander and serve hot with parathas or bread."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Aloo Paratha (Stuffed Potato Bread)",
+    "time": "30 mins",
+    "calories": "280 kcal per paratha",
+    "health_tags": [
+      "vegetarian"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "2 cups Whole wheat flour (Atta)",
+      "3 Boiled potatoes",
+      "1 Onion (very finely chopped)",
+      "1 Green chili (minced)",
+      "1/2 tsp Carom seeds (Ajwain)",
+      "1/2 tsp Amchur powder",
+      "Ghee or butter for roasting"
+    ],
+    "instructions": [
+      "Knead the whole wheat flour with water and a pinch of salt into a soft, pliable dough. Cover and let it rest for 15 minutes.",
+      "Peel and thoroughly mash the boiled potatoes. Make sure there are no lumps. Mix in the finely chopped onion, chilies, ajwain, amchur, salt, and fresh coriander.",
+      "Take a golf-ball sized portion of dough. Roll it into a small 3-inch circle.",
+      "Place a generous spoonful of the potato mixture in the center. Bring the edges of the dough together and pinch to seal the filling inside.",
+      "Dust with dry flour and gently roll it out into a flat circle. Use light pressure so the filling doesn't burst out.",
+      "Place the paratha on a hot tawa (griddle). Cook until small bubbles appear, flip, spread ghee or butter, and press with a spatula until golden brown spots form on both sides."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Egg Curry (Anda Masala)",
+    "time": "30 mins",
+    "calories": "320 kcal",
+    "health_tags": [
+      "high-protein",
+      "low-carb"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "4 Hard-boiled eggs (peeled)",
+      "2 Onions (finely chopped)",
+      "2 Tomatoes (pureed)",
+      "1 tsp Cumin seeds",
+      "1 tsp Garam masala",
+      "1/2 tsp Turmeric",
+      "1 tbsp Oil"
+    ],
+    "instructions": [
+      "Make shallow, vertical slits on the boiled eggs. Heat a drop of oil in a pan, sprinkle a pinch of turmeric and red chili powder, and pan-fry the eggs for 2 minutes until lightly golden. Set aside.",
+      "In the same pan, heat the remaining oil. Add cumin seeds, then the finely chopped onions. Sauté until golden brown.",
+      "Add ginger-garlic paste and cook for 1 minute.",
+      "Add the tomato puree, salt, and dry spices (coriander powder, garam masala). Cook until the oil separates from the masala.",
+      "Add 1 cup of water to make a gravy and bring to a simmer. Drop the fried eggs into the gravy.",
+      "Cover and cook on low heat for 5 minutes so the eggs absorb the flavors. Serve with roti or rice."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Comforting Moong Dal Khichdi",
+    "time": "25 mins",
+    "calories": "280 kcal",
+    "health_tags": [
+      "vegetarian",
+      "gluten-free",
+      "easy-digestion"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1/2 cup Rice",
+      "1/2 cup Yellow Moong Dal (split green gram)",
+      "1 tbsp Ghee",
+      "1 tsp Cumin seeds",
+      "1/4 tsp Asafoetida (Hing)",
+      "1/2 tsp Turmeric",
+      "1/2 cup Mixed veggies (peas, carrots - optional)"
+    ],
+    "instructions": [
+      "Wash the rice and moong dal together until the water runs clear. Soak for 15 minutes.",
+      "In a pressure cooker, heat the ghee. Add cumin seeds and let them splutter. Add the hing (asafoetida).",
+      "If using vegetables, add the chopped veggies and sauté for a minute.",
+      "Drain the rice and dal and add them to the cooker. Add turmeric and salt.",
+      "Add 3.5 to 4 cups of water (Khichdi needs a lot of water to become soft and porridge-like).",
+      "Close the lid and pressure cook for 4-5 whistles on medium heat. Let pressure release naturally. Serve hot with a dollop of extra ghee and pickle."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Jeera Aloo (Cumin Potatoes)",
+    "time": "15 mins",
+    "calories": "220 kcal",
+    "health_tags": [
+      "vegan",
+      "gluten-free",
+      "quick-meal"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "4 medium Potatoes (boiled, peeled, and cubed)",
+      "1.5 tsp Cumin seeds (Jeera)",
+      "1 tbsp Oil or Ghee",
+      "1/2 tsp Turmeric",
+      "1/2 tsp Chili flakes or powder",
+      "1/2 tsp Amchur (Dry mango powder)",
+      "Lots of fresh coriander"
+    ],
+    "instructions": [
+      "Ensure your boiled potatoes are completely cool before cubing them. If they are hot, they will turn to mush when cooking.",
+      "Heat oil or ghee in a pan on medium heat. It must be hot enough so the cumin seeds crackle immediately.",
+      "Add the cumin seeds (be generous, it's the star ingredient) and let them brown slightly. Add green chilies.",
+      "Lower the heat. Add turmeric, chili powder, and immediately drop in the potato cubes. Toss well to coat the potatoes in the spiced oil.",
+      "Cook uncovered for 5-6 minutes, tossing occasionally, until the potatoes get a slight crispy crust.",
+      "Turn off the heat. Sprinkle amchur powder, salt, and a large handful of chopped fresh coriander. Mix and serve."
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Chana Masala",
+    "time": "40 mins",
+    "calories": "310 kcal",
+    "health_tags": [
+      "vegan",
+      "high-protein",
+      "high-fiber"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "2 cups Chickpeas (boiled)",
+      "1 large Onion (finely chopped)",
+      "2 Tomatoes (pureed)",
+      "1 tsp Cumin seeds",
+      "1 tbsp Chana Masala powder",
+      "1/2 tsp Garam masala",
+      "1 tbsp Ginger-garlic paste"
+    ],
+    "instructions": [
+      "Heat oil in a pan, add cumin seeds. Sauté the chopped onions until golden brown.",
+      "Add ginger-garlic paste, turmeric, and red chili powder. Sauté for a few seconds.",
+      "Pour in the tomato puree. Cook the mixture until the oil separates from the edges.",
+      "Add the Chana Masala powder and salt. Mix well.",
+      "Add the boiled chickpeas along with half a cup of water. Simmer on medium-low heat for 10-15 minutes.",
+      "Finish with a sprinkle of garam masala and fresh coriander. Serve with Puri, Bhature, or Rice."
+    ]
+  },
+  {
+    "id": 22,
+    "name": "South Indian Lemon Rice",
+    "time": "15 mins",
+    "calories": "240 kcal",
+    "health_tags": [
+      "vegan",
+      "gluten-free",
+      "quick-meal"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "2 cups Cooked Rice (cooled)",
+      "2 tbsp Peanuts",
+      "1 tsp Mustard seeds",
+      "1 tsp Chana dal (split chickpeas)",
+      "1/2 tsp Turmeric",
+      "Curry leaves",
+      "Juice of 1 large Lemon"
+    ],
+    "instructions": [
+      "Make sure the cooked rice is completely cool and the grains are separate.",
+      "Heat oil in a pan. Add the peanuts and fry until crunchy. Push them to the side.",
+      "Add mustard seeds and let them splutter. Add the chana dal, split urad dal, dried red chilies, and curry leaves. Sauté until the dals turn golden.",
+      "Turn off the heat. Add the turmeric powder (adding it off the heat prevents it from burning and turning brown).",
+      "Immediately add the lemon juice and salt to the pan, then add the cooked rice.",
+      "Gently mix everything together until the rice takes on a beautiful yellow color. Serve warm or at room temperature."
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Upma (Savory Semolina Breakfast)",
+    "time": "20 mins",
+    "calories": "260 kcal",
+    "health_tags": [
+      "vegetarian",
+      "breakfast"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1 cup Rava (Semolina)",
+      "1 Onion (finely chopped)",
+      "1/4 cup Green peas",
+      "1 tsp Mustard seeds",
+      "1 tsp Urad dal",
+      "Curry leaves",
+      "2.5 cups Boiling water",
+      "1 tbsp Ghee"
+    ],
+    "instructions": [
+      "Dry roast the semolina in a pan on low heat until it smells nutty (about 5 mins). Do not let it turn brown. Remove to a plate.",
+      "In the same pan, heat oil or ghee. Add mustard seeds, urad dal, curry leaves, and green chilies.",
+      "Add the chopped onions and sauté until translucent. Add the green peas and carrots if using. Sauté for a minute.",
+      "Pour exactly 2.5 cups of boiling hot water into the pan. Add salt.",
+      "Lower the heat to minimum. Slowly pour the roasted semolina into the boiling water with one hand while continuously stirring with the other to prevent lumps.",
+      "Cover with a lid and let it steam for 3 minutes. Turn off the heat, drizzle a teaspoon of ghee on top, and fluff with a fork."
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Mutter Paneer (Peas & Cottage Cheese)",
+    "time": "30 mins",
+    "calories": "350 kcal",
+    "health_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "200g Paneer (cubed)",
+      "1 cup Green peas (fresh or frozen)",
+      "2 Onions (pureed)",
+      "2 Tomatoes (pureed)",
+      "1/4 cup Cashew paste",
+      "1 tsp Garam masala",
+      "1 tsp Coriander powder"
+    ],
+    "instructions": [
+      "In a pan, heat oil and pan-fry the paneer cubes lightly until the edges are golden. Soak them in warm water to keep them soft.",
+      "In the same pan, add cumin seeds, followed by the onion puree. Sauté until lightly browned.",
+      "Add ginger-garlic paste, cook for 1 minute, then add tomato puree, turmeric, and coriander powder.",
+      "Cook until the oil separates. Stir in the cashew paste and cook for 2 more minutes.",
+      "Add the green peas and half a cup of water. Simmer until the peas are tender.",
+      "Drain the paneer cubes and add them to the gravy along with garam masala. Simmer for 3-4 minutes. Serve hot."
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Gajar Ka Halwa (Carrot Pudding)",
+    "time": "60 mins",
+    "calories": "380 kcal",
+    "health_tags": [
+      "vegetarian",
+      "dessert"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1 kg Carrots (peeled and grated)",
+      "1 liter Full-fat milk",
+      "1/2 cup Sugar",
+      "1/4 cup Ghee",
+      "1/4 tsp Cardamom powder",
+      "Chopped Almonds and Cashews"
+    ],
+    "instructions": [
+      "In a heavy-bottomed pot or kadhai, combine the grated carrots and the full-fat milk.",
+      "Bring to a boil, then lower the heat. Cook uncovered, stirring frequently, until the milk is completely absorbed by the carrots. This takes about 40-45 minutes.",
+      "Once the milk has evaporated, add the sugar. The mixture will become watery again. Continue to cook until this liquid also evaporates.",
+      "Add the ghee. Sauté the halwa in the ghee for 10 minutes until it turns a deep, rich red color and smells roasted.",
+      "Turn off the heat. Stir in the cardamom powder and roasted nuts. Serve warm."
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Baingan Bharta (Roasted Eggplant Mash)",
+    "time": "40 mins",
+    "calories": "180 kcal",
+    "health_tags": [
+      "vegan",
+      "low-carb",
+      "high-fiber"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1 large Eggplant (Bharta Baingan)",
+      "2 Onions (finely chopped)",
+      "2 Tomatoes (finely chopped)",
+      "4 cloves Garlic",
+      "1 inch Ginger (minced)",
+      "1/2 tsp Mustard oil",
+      "Fresh coriander"
+    ],
+    "instructions": [
+      "Wash the eggplant and dry it. Make small slits in it and stuff the garlic cloves inside. Rub a few drops of mustard oil over the skin.",
+      "Roast the eggplant directly over an open gas flame, turning occasionally, until the skin is completely charred and the inside is soft and mushy (about 10-15 mins).",
+      "Let it cool, peel off the charred skin, and mash the flesh thoroughly with a fork.",
+      "Heat oil in a pan. Add cumin seeds, ginger, and green chilies. Sauté the chopped onions until golden brown.",
+      "Add the chopped tomatoes, turmeric, coriander powder, and salt. Cook until the tomatoes are mushy.",
+      "Add the mashed eggplant. Mix well and cook for 5-7 minutes so the smoky flavor infuses into the masala. Garnish with coriander."
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Punjabi Kadhi Pakora",
+    "time": "50 mins",
+    "calories": "320 kcal",
+    "health_tags": [
+      "vegetarian",
+      "probiotic"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1.5 cups Sour Yogurt",
+      "1/2 cup Besan (Gram flour) for Kadhi",
+      "1 cup Besan for Pakoras",
+      "1 Onion (sliced)",
+      "1 tsp Fenugreek seeds (Methi dana)",
+      "1 tsp Mustard seeds",
+      "Dried red chilies"
+    ],
+    "instructions": [
+      "Make the Pakoras: Mix 1 cup besan, sliced onions, green chilies, a pinch of baking soda, and water to make a thick batter. Deep fry spoonfuls in hot oil until golden. Set aside.",
+      "Make the Kadhi: Whisk the sour yogurt and 1/2 cup besan together until completely smooth. Add 4 cups of water, turmeric, and salt. Whisk again.",
+      "In a deep pot, heat oil. Add fenugreek seeds, mustard seeds, and dried red chilies. Pour the yogurt-besan mixture into the pot.",
+      "Bring it to a boil while stirring continuously (if you stop stirring, the yogurt will curdle).",
+      "Once it boils, lower the heat and let it simmer for 30 minutes until it thickens.",
+      "Drop the fried pakoras into the simmering kadhi. Boil for 5 more minutes. Serve with steamed rice."
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Aloo Matar (Potato & Peas Curry)",
+    "time": "30 mins",
+    "calories": "240 kcal",
+    "health_tags": [
+      "vegan",
+      "comfort-food"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "3 Potatoes (peeled and cubed)",
+      "1 cup Green peas",
+      "2 Onions (pureed)",
+      "2 Tomatoes (pureed)",
+      "1 tsp Cumin seeds",
+      "1 tsp Garam masala",
+      "1/2 tsp Turmeric"
+    ],
+    "instructions": [
+      "Heat oil in a pressure cooker or heavy pan. Add cumin seeds and let them splutter.",
+      "Add the onion puree and sauté until it turns light brown. Add ginger-garlic paste and cook for a minute.",
+      "Add the tomato puree, turmeric, coriander powder, and red chili powder. Cook until oil separates from the masala.",
+      "Toss in the potato cubes and green peas. Mix well to coat them in the spices.",
+      "Add 1.5 cups of water and salt. Pressure cook for 2 whistles (or cover and simmer for 15 minutes until potatoes are soft).",
+      "Sprinkle garam masala and fresh coriander before serving."
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Lobiya Masala (Black-Eyed Peas)",
+    "time": "45 mins",
+    "calories": "290 kcal",
+    "health_tags": [
+      "vegan",
+      "high-protein",
+      "high-fiber"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1 cup Black-eyed peas (Lobiya)",
+      "1 large Onion (finely chopped)",
+      "2 Tomatoes (pureed)",
+      "1 tsp Cumin seeds",
+      "1 tbsp Coriander powder",
+      "1 tsp Garam masala",
+      "Fresh coriander"
+    ],
+    "instructions": [
+      "Soak the black-eyed peas in hot water for 2 hours (or overnight). Drain and pressure cook with fresh water and salt for 3-4 whistles until tender.",
+      "Heat oil in a pan, add cumin seeds, and sauté the chopped onions until deep golden brown.",
+      "Add ginger-garlic paste, then pour in the tomato puree along with turmeric, coriander, and chili powder.",
+      "Cook the masala until it thickens and leaves oil at the sides.",
+      "Add the boiled lobiya along with its cooking water. Simmer on low heat for 10-15 minutes so the flavors blend.",
+      "Garnish with garam masala and coriander. Serve with roti or rice."
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Methi Malai Matar",
+    "time": "35 mins",
+    "calories": "310 kcal",
+    "health_tags": [
+      "vegetarian",
+      "iron-rich"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "2 cups Fresh Fenugreek leaves (Methi, chopped)",
+      "1 cup Green peas",
+      "1/2 cup Heavy cream (Malai)",
+      "1 Onion (pureed)",
+      "10 Cashews (soaked and blended into a paste)",
+      "1/2 tsp Garam masala"
+    ],
+    "instructions": [
+      "Sprinkle a little salt on the chopped methi leaves and let them sit for 10 mins. Squeeze out the bitter water, then briefly sauté the leaves in 1 tsp oil. Set aside.",
+      "Boil the green peas until tender.",
+      "Heat oil in a pan, add cumin seeds and onion puree. Sauté until translucent. Add ginger-garlic paste.",
+      "Add a splash of water, turmeric, and coriander powder. Sauté for a minute.",
+      "Lower the heat and stir in the cashew paste and heavy cream. Keep stirring so it doesn't curdle.",
+      "Add the boiled peas and sautéed methi leaves. Simmer for 5 minutes. Do not boil vigorously. Serve hot."
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Kerala Fish Curry (Meen Curry)",
+    "time": "40 mins",
+    "calories": "340 kcal",
+    "health_tags": [
+      "high-protein",
+      "omega-3",
+      "dairy-free"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "500g Firm Fish (Seer fish or Kingfish, sliced)",
+      "1 cup Coconut milk",
+      "2 pieces Kokum (Kudampuli) or Tamarind paste",
+      "1 Onion (finely sliced)",
+      "1 tbsp Coriander powder",
+      "1/2 tsp Mustard seeds",
+      "Curry leaves",
+      "Coconut oil"
+    ],
+    "instructions": [
+      "Soak the kokum in warm water for 15 minutes.",
+      "Heat coconut oil in an earthen pot (or heavy pan). Add mustard seeds and let them pop. Add curry leaves, green chilies, and sliced onions. Sauté until soft.",
+      "Lower the heat. Add turmeric, coriander powder, and a generous amount of Kashmiri red chili powder. Sauté for 30 seconds.",
+      "Add the soaked kokum along with its water and 1 cup of plain water. Bring to a rapid boil.",
+      "Gently slide in the fish pieces. Lower the heat, cover, and cook for 10-12 minutes until the fish is opaque and cooked through.",
+      "Stir in the thick coconut milk, simmer for 2 minutes (do not boil), and remove from heat."
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Chicken Chettinad",
+    "time": "50 mins",
+    "calories": "420 kcal",
+    "health_tags": [
+      "high-protein",
+      "spicy",
+      "low-carb"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "500g Chicken (bone-in)",
+      "3 tbsp Fresh grated coconut",
+      "1 tbsp Coriander seeds",
+      "4 Dried red chilies",
+      "1 tsp Black peppercorns",
+      "1 tsp Fennel seeds",
+      "2 Onions (finely chopped)"
+    ],
+    "instructions": [
+      "Make the Chettinad Masala: Dry roast the grated coconut, coriander seeds, dried chilies, peppercorns, fennel seeds, and a cinnamon stick until fragrant and golden. Cool and blend into a smooth paste with a little water.",
+      "Heat oil in a pan, add curry leaves and finely chopped onions. Sauté until golden brown.",
+      "Add ginger-garlic paste and chopped tomatoes. Cook until mushy.",
+      "Add the chicken pieces and fry for 5 minutes until they change color.",
+      "Pour in the blended Chettinad masala paste and salt. Toss well.",
+      "Add 1 cup of water, cover, and simmer for 25 minutes until the chicken is tender and the oil floats to the top."
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Homestyle Mutton Curry",
+    "time": "75 mins",
+    "calories": "480 kcal",
+    "health_tags": [
+      "high-protein",
+      "iron-rich"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "500g Mutton (bone-in pieces)",
+      "3 large Onions (finely chopped)",
+      "2 Tomatoes (chopped)",
+      "2 tbsp Ginger-garlic paste",
+      "1 tbsp Meat Masala or Garam Masala",
+      "Whole spices",
+      "Mustard oil"
+    ],
+    "instructions": [
+      "Heat mustard oil in a pressure cooker until it smokes. Lower heat, add whole spices (bay leaf, cloves, cardamom).",
+      "Add the chopped onions and sauté patiently until dark brown.",
+      "Add the mutton pieces. Turn the heat up and fry the meat for 10-15 minutes until it is browned all over.",
+      "Add ginger-garlic paste, turmeric, coriander powder, and red chili powder. Sauté for 5 mins.",
+      "Add the tomatoes and cook until they melt into the gravy.",
+      "Add 2 cups of hot water and salt. Close the pressure cooker and cook for 5-6 whistles on medium-low heat. Let pressure release naturally."
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Prawn Masala (Shrimp Curry)",
+    "time": "25 mins",
+    "calories": "260 kcal",
+    "health_tags": [
+      "high-protein",
+      "low-carb",
+      "pescatarian"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "400g Prawns (cleaned and deveined)",
+      "2 Onions (finely chopped)",
+      "2 Tomatoes (finely chopped)",
+      "1/2 cup Coconut milk",
+      "1 tsp Mustard seeds",
+      "Curry leaves",
+      "1 tsp Garam masala"
+    ],
+    "instructions": [
+      "Marinate the cleaned prawns with a pinch of turmeric, salt, and half a lemon's juice for 10 mins.",
+      "Heat coconut oil in a pan. Add mustard seeds, curry leaves, and green chilies.",
+      "Sauté the chopped onions until light brown. Add ginger-garlic paste.",
+      "Add tomatoes, coriander powder, and Kashmiri red chili powder. Cook until oil separates.",
+      "Add the marinated prawns and sauté for exactly 3-4 minutes (prawns cook very fast and turn rubbery if overcooked).",
+      "Pour in the coconut milk, simmer for 2 minutes, and turn off the heat. Serve with rice or appam."
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Vegetable Pulao",
+    "time": "30 mins",
+    "calories": "310 kcal",
+    "health_tags": [
+      "vegan-option",
+      "gluten-free",
+      "one-pot"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1.5 cups Basmati Rice (soaked)",
+      "1 cup Mixed Vegetables (carrots, beans, peas, potato)",
+      "1 Onion (sliced)",
+      "1 tbsp Ghee",
+      "Whole spices (Cumin, Cinnamon, Star Anise)",
+      "Fresh mint"
+    ],
+    "instructions": [
+      "Wash and soak the basmati rice for 30 minutes. Drain completely.",
+      "In a heavy pot or pressure cooker, heat ghee. Add the whole spices and let them crackle.",
+      "Add sliced onions and sauté until translucent (don't let them turn brown).",
+      "Add the chopped mixed vegetables, a handful of mint leaves, and sauté for 2 minutes.",
+      "Add the drained rice and very gently stir to coat the grains in ghee.",
+      "Pour exactly 2.5 cups of water and salt. Bring to a boil, then lower the heat to minimum, cover tightly, and cook for 12 minutes. Fluff gently with a fork."
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Tamarind Rice (Puliyogare)",
+    "time": "20 mins",
+    "calories": "330 kcal",
+    "health_tags": [
+      "vegan",
+      "dairy-free",
+      "lunchbox"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "2 cups Cooked Rice (cooled)",
+      "3 tbsp Tamarind paste/extract",
+      "2 tbsp Peanuts",
+      "1 tbsp Sesame oil",
+      "1 tsp Mustard seeds",
+      "1 tbsp Chana dal & Urad dal",
+      "1 tbsp Puliyogare powder (or Rasam powder)"
+    ],
+    "instructions": [
+      "Spread the cooked rice on a large plate, drizzle 1 tsp sesame oil over it, and let it cool completely.",
+      "Heat sesame oil in a pan. Fry peanuts until crunchy and set aside.",
+      "In the same oil, add mustard seeds, chana dal, urad dal, dried red chilies, and curry leaves. Sauté until golden.",
+      "Lower the heat and pour in the thick tamarind extract. Add turmeric, salt, and the Puliyogare/Rasam powder.",
+      "Boil the mixture until it thickens into a dark, oily paste (Gojju).",
+      "Turn off the heat. Add the cooked rice and roasted peanuts. Mix thoroughly but gently until the rice is evenly coated."
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Ven Pongal (Savory Lentil Rice)",
+    "time": "30 mins",
+    "calories": "350 kcal",
+    "health_tags": [
+      "vegetarian",
+      "comfort-food"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1/2 cup Raw short-grain rice",
+      "1/2 cup Yellow Moong Dal",
+      "2 tbsp Ghee",
+      "1 tsp Cumin seeds",
+      "1 tsp Whole Black Peppercorns",
+      "1 inch Ginger (finely chopped)",
+      "Curry leaves",
+      "Cashews"
+    ],
+    "instructions": [
+      "Dry roast the moong dal on low heat for 3 minutes until fragrant. Wash the dal and rice together.",
+      "Pressure cook the rice and dal with 3.5 cups of water and salt for 4-5 whistles until extremely soft and mushy.",
+      "Open the cooker and mash the mixture well with the back of a spoon.",
+      "Prepare the Tempering: Heat ghee in a pan. Add whole black peppercorns, cumin seeds, chopped ginger, and curry leaves. Sauté for 30 seconds.",
+      "Add cashews and fry until golden.",
+      "Pour this sizzling ghee tempering over the mashed pongal, mix well, and serve hot with coconut chutney."
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Idli & Sambar",
+    "time": "40 mins",
+    "calories": "210 kcal per serving",
+    "health_tags": [
+      "vegan",
+      "fermented",
+      "low-fat"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "Idli Batter (Fermented rice & urad dal)",
+      "1/2 cup Toor dal",
+      "1 cup Mixed veggies (drumstick, carrot, pumpkin)",
+      "1 Lemon-sized Tamarind (soaked)",
+      "1.5 tbsp Sambar powder",
+      "Mustard seeds & Curry leaves"
+    ],
+    "instructions": [
+      "Make Idlis: Grease idli plates, pour the batter, and steam for 10-12 minutes on medium-high heat. Let cool slightly before unmolding.",
+      "Make Sambar: Pressure cook the toor dal until mushy. In a separate pot, boil the chopped veggies in water with turmeric and salt until tender.",
+      "Extract the tamarind juice and add it to the boiled veggies. Add the sambar powder and boil for 5 minutes until the raw smell disappears.",
+      "Mash the cooked dal and pour it into the boiling veggie mixture. Simmer for 5 minutes.",
+      "Heat oil in a small pan, crackle mustard seeds, dried chilies, and curry leaves. Pour this tadka over the hot sambar."
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Medu Vada (Crispy Lentil Donuts)",
+    "time": "40 mins (plus soaking)",
+    "calories": "320 kcal",
+    "health_tags": [
+      "vegan",
+      "high-protein",
+      "gluten-free"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1 cup Whole white Urad dal (soaked for 4 hours)",
+      "1 inch Ginger (finely chopped)",
+      "2 Green chilies (finely chopped)",
+      "1 tsp Whole black peppercorns",
+      "Curry leaves",
+      "Oil for deep frying"
+    ],
+    "instructions": [
+      "Drain the soaked urad dal completely. Grind it in a blender or wet grinder using as little ice-cold water as possible until it forms a thick, fluffy batter.",
+      "Vigorously whisk the batter with your hand for 5 minutes to incorporate air. (Test: Drop a bit of batter in water; it should float).",
+      "Mix in the chopped ginger, chilies, peppercorns, curry leaves, and salt.",
+      "Heat oil in a deep kadhai. Wet your hands. Take a lemon-sized ball of batter, flatten it slightly on your fingers, make a hole in the center with your thumb.",
+      "Gently slide the vada into the hot oil. Fry on medium heat, turning occasionally, until crispy and golden brown on both sides.",
+      "Serve hot with coconut chutney and sambar."
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Mumbai Pav Bhaji",
+    "time": "45 mins",
+    "calories": "450 kcal",
+    "health_tags": [
+      "vegetarian",
+      "street-food"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "3 Potatoes (boiled)",
+      "1 cup Mixed veggies (Cauliflower, Peas, Carrots - boiled)",
+      "2 Onions (finely chopped)",
+      "2 Tomatoes (finely chopped)",
+      "1 Capsicum (finely chopped)",
+      "2 tbsp Pav Bhaji Masala",
+      "Butter (generous amounts)",
+      "Ladi Pav (Bread rolls)"
+    ],
+    "instructions": [
+      "Mash the boiled potatoes and boiled mixed vegetables thoroughly.",
+      "Heat 2 tbsp butter and a little oil in a large flat pan or tawa. Add chopped onions and sauté until translucent.",
+      "Add ginger-garlic paste and chopped capsicum. Sauté for 3 minutes.",
+      "Add chopped tomatoes and cook until they are completely mushy. Use a potato masher to mash the onion-tomato mixture directly in the pan.",
+      "Add the Pav Bhaji masala, Kashmiri red chili powder, and salt. Cook for 1 minute.",
+      "Add the mashed boiled veggies and a splash of water. Mash everything together vigorously on the pan for 5-7 minutes. Finish with a dollop of butter and fresh coriander.",
+      "Slit the pav bread, apply butter, and toast it on a hot pan until crisp. Serve hot."
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Misal Pav",
+    "time": "50 mins",
+    "calories": "520 kcal",
+    "health_tags": [
+      "vegan",
+      "spicy",
+      "high-protein"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "2 cups Sprouted Moth Beans (Matki)",
+      "2 Onions (finely chopped)",
+      "2 Tomatoes (finely chopped)",
+      "2 tbsp Misal Masala or Goda Masala",
+      "1 tbsp Ginger-garlic paste",
+      "Farsan (Indian trail mix for topping)",
+      "Pav (Bread rolls)",
+      "Oil"
+    ],
+    "instructions": [
+      "Boil the sprouted moth beans with turmeric and salt until tender but not mushy.",
+      "Heat a generous amount of oil in a pot (Misal is known for its oily, spicy 'Tarri' or layer of oil on top). Add mustard seeds and curry leaves.",
+      "Sauté the chopped onions until golden. Add ginger-garlic paste and tomatoes. Cook until oil separates.",
+      "Add the Misal masala, red chili powder, and sauté well.",
+      "Add the boiled sprouts along with 3-4 cups of water. Boil vigorously for 10-15 minutes until the spicy oil floats to the top.",
+      "To serve: In a bowl, add the sprouts, pour the spicy gravy over it, top generously with raw chopped onions, coriander, and crispy Farsan. Serve with buttered Pav."
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Vada Pav",
+    "time": "40 mins",
+    "calories": "350 kcal",
+    "health_tags": [
+      "vegetarian",
+      "street-food"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "4 Potatoes (boiled and mashed)",
+      "1 tbsp Ginger-garlic-green chili paste",
+      "1/2 tsp Mustard seeds",
+      "Curry leaves",
+      "1 cup Besan (Gram flour)",
+      "Ladi Pav (Bread rolls)",
+      "Dry Garlic Chutney"
+    ],
+    "instructions": [
+      "Heat 1 tbsp oil in a pan. Add mustard seeds, let them crackle, add curry leaves and the ginger-garlic-chili paste. Sauté for a minute.",
+      "Add turmeric, then add the mashed potatoes and salt. Mix well, turn off the heat, and let it cool. Roll into golf-sized balls.",
+      "Make a thick batter with besan, a pinch of turmeric, baking soda, salt, and water.",
+      "Heat oil for deep frying. Dip the potato balls into the besan batter to coat evenly, and drop them into the hot oil.",
+      "Fry until golden and crispy. Remove and drain on paper towels.",
+      "Slit a Pav in half. Spread dry garlic chutney (and green chutney if preferred) inside. Place the hot Batata Vada inside and press gently. Serve with fried green chilies."
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Gujarati Khaman Dhokla",
+    "time": "30 mins",
+    "calories": "180 kcal",
+    "health_tags": [
+      "vegetarian",
+      "steamed",
+      "low-fat"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1.5 cups Besan (Gram flour)",
+      "1 tbsp Semolina (Rava)",
+      "1 tbsp Lemon juice",
+      "1 tsp Eno fruit salt",
+      "1 tbsp Sugar",
+      "Green chilies",
+      "Mustard seeds and Curry leaves"
+    ],
+    "instructions": [
+      "Sift the besan. In a bowl, mix besan, semolina, lemon juice, sugar, salt, and water to make a smooth, lump-free batter. Let it rest for 15 minutes.",
+      "Prepare a steamer and grease a steaming pan.",
+      "Just before steaming, add the Eno fruit salt to the batter and whisk gently in one direction. The batter will become very frothy.",
+      "Immediately pour the batter into the greased pan and steam on high heat for 15-20 minutes until a toothpick comes out clean.",
+      "Let it cool slightly, then cut into squares.",
+      "Prepare the Tempering: Heat oil, add mustard seeds, slit green chilies, and curry leaves. Add 1/2 cup of water, 1 tbsp sugar, and a squeeze of lemon. Boil for a minute.",
+      "Pour this sweet and sour tempering water evenly over the steamed Dhokla so it stays moist. Garnish with coriander and grated coconut."
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Methi Thepla",
+    "time": "30 mins",
+    "calories": "140 kcal per thepla",
+    "health_tags": [
+      "vegetarian",
+      "high-fiber",
+      "travel-friendly"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "2 cups Whole wheat flour",
+      "1 cup Fresh fenugreek leaves (Methi, washed and chopped)",
+      "2 tbsp Besan (Gram flour)",
+      "1/4 cup Yogurt",
+      "1 tsp Ginger-green chili paste",
+      "1/2 tsp Turmeric",
+      "1/2 tsp Ajwain (Carom seeds)"
+    ],
+    "instructions": [
+      "In a large bowl, mix the wheat flour, besan, chopped methi leaves, yogurt, ginger-chili paste, turmeric, ajwain, salt, and 1 tbsp oil.",
+      "Knead into a soft, smooth dough. The moisture from the methi and yogurt means you will need very little, if any, water.",
+      "Divide the dough into small, equal-sized balls.",
+      "Dust a ball with dry flour and roll it out into a thin circle (thinner than a paratha).",
+      "Heat a tawa (griddle). Place the rolled thepla on it. When small bubbles appear, flip it.",
+      "Smear a little oil on both sides and press gently with a spatula until light brown spots appear. They cook very fast. Stack them and serve with yogurt and pickle."
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Aloo Methi (Potatoes & Fenugreek)",
+    "time": "30 mins",
+    "calories": "210 kcal",
+    "health_tags": [
+      "vegan",
+      "gluten-free",
+      "iron-rich"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "3 medium Potatoes (peeled and cubed)",
+      "1 large bunch Fresh Fenugreek leaves (Methi)",
+      "2 cloves Garlic (crushed)",
+      "1-2 Dried red chilies",
+      "1/2 tsp Turmeric",
+      "2 tbsp Mustard oil"
+    ],
+    "instructions": [
+      "Pluck the methi leaves from the stems. Wash them thoroughly in multiple changes of water. Drain completely and chop roughly.",
+      "Heat mustard oil in a heavy pan until it smokes. Turn off the heat, let it cool slightly, and turn it back on.",
+      "Add dried red chilies and crushed garlic. Sauté for 10 seconds.",
+      "Add the potato cubes and turmeric. Pan-fry the potatoes uncovered on medium heat for 10-12 minutes until they are 80% cooked and have a golden crust.",
+      "Add the chopped methi leaves and salt. The leaves will wilt immediately.",
+      "Mix well and cook uncovered for another 5-7 minutes until the potatoes are completely tender and the moisture from the leaves has evaporated."
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Fish Amritsari (Fried Fish)",
+    "time": "25 mins",
+    "calories": "320 kcal",
+    "health_tags": [
+      "high-protein",
+      "pescatarian"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "400g White fish fillets (Tilapia or Basa, cut into fingers)",
+      "1 cup Besan (Gram flour)",
+      "1 tbsp Ginger-garlic paste",
+      "1 tbsp Lemon juice",
+      "1 tsp Ajwain (Carom seeds)",
+      "1 tsp Kashmiri red chili powder",
+      "Oil for frying"
+    ],
+    "instructions": [
+      "First Marinade: Rub the fish pieces with lemon juice, ginger-garlic paste, and a little salt. Set aside for 15 minutes.",
+      "Second Marinade: In a bowl, mix besan, ajwain, red chili powder, turmeric, and a little water to make a thick, coating batter.",
+      "Dip the marinated fish pieces into the besan batter, ensuring they are well coated.",
+      "Heat oil in a kadhai on medium-high heat. Carefully drop the fish pieces into the oil.",
+      "Fry until golden brown and crispy on the outside, and cooked through on the inside (about 4-5 minutes).",
+      "Drain on paper towels. Sprinkle generously with Chaat Masala and serve hot with green chutney."
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Peshawari Chole (Dry Chickpeas)",
+    "time": "45 mins",
+    "calories": "310 kcal",
+    "health_tags": [
+      "vegan",
+      "high-protein",
+      "high-fiber"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "2 cups Chickpeas (soaked and boiled)",
+      "2 Onions (finely chopped)",
+      "1 Tomato (pureed)",
+      "2 tbsp Pomegranate seeds powder (Anardana)",
+      "1 tbsp Coriander powder",
+      "1 tsp Cumin powder",
+      "1 tsp Garam masala"
+    ],
+    "instructions": [
+      "Unlike Punjabi Chole, Peshawari Chole is semi-dry and heavily spiced with Anardana (pomegranate seed powder) for tartness.",
+      "Heat oil in a pan. Sauté chopped onions until deep brown.",
+      "Add ginger-garlic paste and the tomato puree. Cook until oil separates.",
+      "Add the dry spices: Coriander powder, cumin powder, garam masala, red chili powder, and the crucial Anardana powder.",
+      "Add the boiled chickpeas with just a tiny splash of their cooking water.",
+      "Cook on medium heat until the masala coats the chickpeas completely and the dish is semi-dry. Garnish with ginger juliennes and slit green chilies."
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Chicken Sukka (Mangalorean Style)",
+    "time": "45 mins",
+    "calories": "410 kcal",
+    "health_tags": [
+      "high-protein",
+      "keto-friendly"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "500g Chicken (bone-in)",
+      "1 cup Freshly grated coconut",
+      "1 Onion (sliced)",
+      "2 tbsp Coriander seeds",
+      "4-5 Byadagi dried chilies (for color)",
+      "1/2 tsp Fennel seeds",
+      "Curry leaves",
+      "1 tsp Tamarind paste"
+    ],
+    "instructions": [
+      "Dry roast the coriander seeds, dried chilies, fennel, and whole spices. Then add 3/4 cup of the grated coconut and roast until golden brown. Grind this into a coarse paste with a little water and tamarind.",
+      "Heat coconut oil in a pan. Sauté sliced onions and curry leaves until golden.",
+      "Add the chicken pieces, turmeric, and salt. Cook for 10 minutes in its own juices.",
+      "Add the ground coconut-spice paste to the chicken. Mix well.",
+      "Cover and cook until the chicken is completely tender.",
+      "Uncover, add the remaining 1/4 cup of fresh grated coconut, and dry roast the mixture in the pan until the gravy completely dries up and coats the chicken pieces."
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Bisi Bele Bath (Hot Lentil Rice)",
+    "time": "45 mins",
+    "calories": "380 kcal",
+    "health_tags": [
+      "vegetarian",
+      "one-pot",
+      "comfort-food"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "1 cup Sona Masoori Rice",
+      "1/2 cup Toor dal",
+      "1 cup Mixed veggies (carrots, beans, peas, potatoes)",
+      "3 tbsp Bisi Bele Bath powder",
+      "1 lemon-sized Tamarind (extracted)",
+      "2 tbsp Ghee",
+      "Cashews and Curry leaves"
+    ],
+    "instructions": [
+      "Pressure cook the rice, toor dal, and mixed vegetables together with 4 cups of water and a pinch of turmeric until extremely soft and mushy.",
+      "In a large heavy-bottomed pot, extract the tamarind juice and boil it with the Bisi Bele Bath powder, salt, and a small piece of jaggery until the raw smell is gone.",
+      "Pour the mashed rice-dal-veggie mixture into the boiling tamarind water. Mix thoroughly. It should have a porridge-like consistency (add hot water if too thick).",
+      "Simmer for 5 minutes.",
+      "Prepare Tadka: Heat ghee, fry cashews, mustard seeds, and curry leaves. Pour over the hot Bisi Bele Bath. Serve with potato chips or boondi."
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Shahi Paneer",
+    "time": "40 mins",
+    "calories": "490 kcal",
+    "health_tags": [
+      "vegetarian",
+      "indulgent",
+      "high-protein"
+    ],
+    "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/w_500,q_auto,f_auto/v1/placeholder.jpg",
+    "ingredients": [
+      "300g Paneer (cut into triangles)",
+      "2 Onions (boiled and pureed)",
+      "1/2 cup Yogurt (whisked)",
+      "1/4 cup Cashew and Almond paste",
+      "1/2 cup Cream",
+      "1 tsp Cardamom powder",
+      "Pinch of Saffron soaked in milk"
+    ],
+    "instructions": [
+      "Boil roughly chopped onions in water for 10 mins. Drain and blend into a smooth white paste. (This makes a white/yellow gravy instead of a red tomato one).",
+      "Heat oil and butter in a pan. Add whole spices (green cardamom, cloves, cinnamon).",
+      "Add the boiled onion paste. Sauté carefully (it splutters) until it turns slightly pinkish but not brown.",
+      "Add ginger-garlic paste and cook for a minute.",
+      "Lower the heat completely. Slowly whisk in the yogurt and cashew-almond paste. Keep stirring to prevent curdling.",
+      "Cook until oil shows on the surface. Add salt, white pepper powder, and cardamom powder.",
+      "Add paneer triangles, cream, and saffron milk. Simmer gently for 3-4 minutes. Serve hot with Naan."
+    ]
+  }
+]

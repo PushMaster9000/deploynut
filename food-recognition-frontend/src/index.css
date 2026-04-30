@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* Use standard gray for light mode, and your custom dark-bg for dark mode */
+  /* Text is dark gray in light mode, white in dark mode */
+  @apply bg-gray-50 dark:bg-dark-bg text-gray-900 dark:text-white font-sans transition-colors duration-300;
+}
