@@ -86,7 +86,7 @@ class PredictionResponseSchema(BaseModel):
     """Response model for prediction endpoint"""
     detected_food: str = Field(..., description="Detected food name")
     confidence: float = Field(..., description="Prediction confidence (0-1)")
-    food_info: FoodCalorieSchema = Field(..., description="Food nutritional info")
+    food_info: Optional[FoodCalorieSchema] = Field(None, description="Food nutritional info")
     matching_recipes: List[RecipeSchema] = Field(
         default=[],
         description="Recipes matching appliances and health constraints"

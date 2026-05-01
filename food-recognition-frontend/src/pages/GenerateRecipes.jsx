@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Wand2, CheckCircle, Search, X, ChefHat, Pencil, Minus, MessageSquare, Send, Bot, User, Settings2, Trash2, Plus, Bookmark, Flame } from 'lucide-react';
 import apiClient from '../api/client';
 
@@ -16,6 +17,9 @@ export default function GenerateRecipes() {
   const [isEditingPantry, setIsEditingPantry] = useState(false);
   const [newPantryInput, setNewPantryInput] = useState('');
 
+  const location = useLocation();
+  const navigate = useNavigate();
+
   useEffect(() => {
     localStorage.setItem('custom_pantry', JSON.stringify(pantryIngredients));
   }, [pantryIngredients]);
@@ -23,6 +27,27 @@ export default function GenerateRecipes() {
   const [selectedIngredients, setSelectedIngredients] = useState([]);
   const [customInput, setCustomInput] = useState('');
   const [isCommonExpanded, setIsCommonExpanded] = useState(false);
+
+  useEffect(() => {
+    const state = location.state;
+    if (state?.ingredient || state?.ingredients) {
+      const newIngredients = [];
+      if (state.ingredient) newIngredients.push(state.ingredient);
+      if (state.ingredients) newIngredients.push(...state.ingredients);
+      
+      setSelectedIngredients(prev => {
+        let updated = [...prev];
+        newIngredients.forEach(item => {
+          const capitalized = item.charAt(0).toUpperCase() + item.slice(1);
+          if (!updated.includes(capitalized) && !updated.includes(item)) {
+            updated.push(capitalized);
+          }
+        });
+        return updated;
+      });
+      navigate('.', { replace: true, state: {} });
+    }
+  }, [location.state, navigate]);
 
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [messages, setMessages] = useState([]);

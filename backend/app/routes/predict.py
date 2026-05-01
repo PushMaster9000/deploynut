@@ -40,8 +40,7 @@ async def predict_food(request: PredictionRequestSchema) -> PredictionResponseSc
         # 3. Database & Recipe Logic
         food_info = CalorieService.get_food_by_name(predicted_food)
         
-        if not food_info:
-            raise HTTPException(status_code=404, detail=f"Food '{predicted_food}' not in database")
+        # (Removed 404 check so unknown items still return their names to the frontend)
         
         matching_recipes = RecipeService.get_filtered_recipes(
             predicted_food,
