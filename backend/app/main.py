@@ -49,7 +49,8 @@ app = FastAPI(
 
 # CORS middleware setup — reads allowed origins from env for deployment flexibility
 allowed_origins_env = os.environ.get("ALLOWED_ORIGINS", "")
-allowed_origins = [origin.strip() for origin in allowed_origins_env.split(",") if origin.strip()] if allowed_origins_env else []
+# Split by comma, strip whitespace, AND strip trailing slashes for robustness
+allowed_origins = [origin.strip().rstrip("/") for origin in allowed_origins_env.split(",") if origin.strip()] if allowed_origins_env else []
 
 # Always allow local dev servers
 default_origins = [
