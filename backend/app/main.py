@@ -51,25 +51,31 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# CORS middleware setup — reads allowed origins from env for deployment flexibility
+# --- CORS and Middleware setup ---
 allowed_origins_env = os.environ.get("ALLOWED_ORIGINS", "")
-# Strip quotes, whitespace, and trailing slashes
-allowed_origins = [origin.strip().strip("'\"").rstrip("/") for origin in allowed_origins_env.split(",") if origin.strip()] if allowed_origins_env else []
+logger.info(f"RAW ALLOWED_ORIGINS from env: '{allowed_origins_env}'")
 
-# Always allow local dev servers
-default_origins = [
-    "http://localhost:5173",
-    "http://localhost:3000",
-]
+# Aggressively clean the origins
+allowed_origins = [
+    origin.strip().strip("'\"").rstrip("/") 
+    for origin in allowed_origins_env.split(",") 
+    if origin.strip()
+] if allowed_origins_env else []
 
-# Merge: env origins take priority, then defaults. 
-if not allowed_origins:
-    cors_origins = ["*"]
-else:
-    cors_origins = list(set(allowed_origins + default_origins))
+default_origins = ["http://localhost:5173", "http://localhost:3000"]
+cors_origins = list(set(allowed_origins + default_origins)) if allowed_origins else ["*"]
 
-logger.info(f"CORS Allowed Origins: {cors_origins}")
+logger.info(f"Final CORS Allowed Origins: {cors_origins}")
 
+# Debug middleware to log all requests (Innermost)
+@app.middleware("http")
+async def log_requests(request, call_next):
+    if request.method == "OPTIONS":
+        logger.info(f"DEBUG OPTIONS Request: Path={request.url.path}, Origin={request.headers.get('origin')}, Headers={dict(request.headers)}")
+    response = await call_next(request)
+    return response
+
+# CORS middleware (Outermost - added last)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=cors_origins,
@@ -77,14 +83,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# Debug middleware to log all requests
-@app.middleware("http")
-async def log_requests(request, call_next):
-    if request.method == "OPTIONS":
-        logger.info(f"OPTIONS request to {request.url.path} from {request.headers.get('origin')}")
-    response = await call_next(request)
-    return response
 
 
 # Include routes
