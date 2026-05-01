@@ -237,10 +237,16 @@ def initialize_users_collection():
     except Exception as e:
         print(f"  users.email index already exists or error: {e}")
     
-    # Create unique index on username
+    # Create index on username (non-unique now)
     try:
-        users_collection.create_index("username", unique=True)
-        print("OK Created unique index on users.username")
+        # Drop old unique index if it exists
+        users_collection.drop_index("username_1") 
+    except Exception:
+        pass
+
+    try:
+        users_collection.create_index("username")
+        print("OK Created index on users.username")
     except Exception as e:
         print(f"  users.username index already exists or error: {e}")
     

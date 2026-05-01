@@ -93,15 +93,12 @@ class AuthService:
         username = str(username).strip().lower()
         email = str(email).strip().lower()
 
-        # Check duplicates
-        existing_user = users_collection.find_one({
-            "$or": [{"email": email}, {"username": username}]
-        })
+        # Check duplicates - Only Email must be unique
+        # 'username' (Full Name) does not need to be unique
+        existing_user = users_collection.find_one({"email": email})
 
         if existing_user:
-            if existing_user.get("email") == email:
-                raise HTTPException(status_code=409, detail="Email already registered")
-            raise HTTPException(status_code=409, detail="Username already taken")
+            raise HTTPException(status_code=409, detail="Email already registered")
 
         # Hash password
         hashed_pw = AuthService.hash_password(password)

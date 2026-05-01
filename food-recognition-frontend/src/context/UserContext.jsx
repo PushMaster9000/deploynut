@@ -37,6 +37,9 @@ export function UserProvider({ children }) {
             const detail = error.response.data.detail;
             if (typeof detail === 'string') return detail;
             if (Array.isArray(detail)) return detail[0].msg;
+        } else if (error.request && !error.response) {
+            // Request was made but no response received - likely CORS or Network error
+            return "Connection error. Please ensure the backend is running and CORS is configured correctly.";
         }
     } catch (e) {}
     return defaultMessage;
