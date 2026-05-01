@@ -48,8 +48,11 @@ app = FastAPI(
 
 
 import logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+from fastapi.exceptions import RequestValidationError
+from fastapi.responses import JSONResponse
+
+# Use uvicorn logger for better visibility in Render/Gunicorn
+logger = logging.getLogger("uvicorn.error")
 
 # --- CORS and Middleware setup ---
 allowed_origins_env = os.environ.get("ALLOWED_ORIGINS", "")
@@ -67,14 +70,6 @@ cors_origins = list(set(allowed_origins + default_origins)) if allowed_origins e
 
 logger.info(f"Final CORS Allowed Origins: {cors_origins}")
 
-# Debug middleware to log all requests (Innermost)
-@app.middleware("http")
-async def log_requests(request, call_next):
-    if request.method == "OPTIONS":
-        logger.info(f"DEBUG OPTIONS Request: Path={request.url.path}, Origin={request.headers.get('origin')}, Headers={dict(request.headers)}")
-    response = await call_next(request)
-    return response
-
 # CORS middleware (Outermost - added last)
 app.add_middleware(
     CORSMiddleware,
@@ -83,6 +78,24 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Exception handler to log 422 validation errors
+@app.exception_handler(RequestValidationError)
+async def validation_exception_handler(request, exc):
+    logger.error(f"422 Validation Error: {exc.errors()}")
+    logger.error(f"Request body: {await request.body()}")
+    return JSONResponse(
+        status_code=422,
+        content={"detail": exc.errors(), "body": str(await request.body())},
+    )
+
+# Debug middleware to log all requests (Innermost)
+@app.middleware("http")
+async def log_requests(request, call_next):
+    if request.method == "OPTIONS":
+        logger.info(f"DEBUG OPTIONS Request: Path={request.url.path}, Origin={request.headers.get('origin')}")
+    response = await call_next(request)
+    return response
 
 
 # Include routes
