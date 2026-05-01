@@ -57,8 +57,12 @@ default_origins = [
     "http://localhost:3000",
 ]
 
-# Merge: env origins take priority, then defaults
-cors_origins = list(set(allowed_origins + default_origins))
+# Merge: env origins take priority, then defaults. 
+# If nothing is specified, we allow all for deployment convenience.
+if not allowed_origins:
+    cors_origins = ["*"]
+else:
+    cors_origins = list(set(allowed_origins + default_origins))
 
 app.add_middleware(
     CORSMiddleware,
