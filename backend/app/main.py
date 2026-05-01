@@ -59,16 +59,18 @@ default_origins = [
 ]
 
 # Merge: env origins take priority, then defaults. 
-# If nothing is specified, we allow all for deployment convenience.
 if not allowed_origins:
     cors_origins = ["*"]
 else:
     cors_origins = list(set(allowed_origins + default_origins))
 
+print(f"INFO CORS Allowed Origins: {cors_origins}")
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=cors_origins,
-    allow_credentials=True,
+    # If using wildcard, allow_credentials MUST be False
+    allow_credentials=True if cors_origins != ["*"] else False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
