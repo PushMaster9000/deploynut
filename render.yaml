@@ -1,0 +1,38 @@
+# Render Blueprint — Backend Deployment Configuration
+# Docs: https://docs.render.com/blueprint-spec
+
+services:
+  - type: web
+    name: nutrivision-backend
+    runtime: python
+    region: oregon
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app.main:app --workers 2 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT
+    envVars:
+      - key: MONGO_URI
+        sync: false        # Set manually in Render dashboard
+      - key: MONGO_DB_NAME
+        sync: false
+      - key: JWT_SECRET_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: CLOUDINARY_CLOUD_NAME
+        sync: false
+      - key: CLOUDINARY_API_KEY
+        sync: false
+      - key: CLOUDINARY_API_SECRET
+        sync: false
+      - key: SMTP_SERVER
+        sync: false
+      - key: SMTP_PORT
+        sync: false
+      - key: SMTP_EMAIL
+        sync: false
+      - key: SMTP_PASSWORD
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false        # Set to your Vercel URL, e.g. https://your-app.vercel.app
+      - key: PYTHON_VERSION
+        value: "3.11.4"

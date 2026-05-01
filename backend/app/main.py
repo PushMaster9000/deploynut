@@ -3,6 +3,7 @@ Main FastAPI application.
 Entry point for the Smart Food Recognition and Recipe Recommendation System.
 """
 
+import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
@@ -46,14 +47,22 @@ app = FastAPI(
 )
 
 
-# CORS middleware setup with your LIVE Vercel frontend added
+# CORS middleware setup — reads allowed origins from env for deployment flexibility
+allowed_origins_env = os.environ.get("ALLOWED_ORIGINS", "")
+allowed_origins = [origin.strip() for origin in allowed_origins_env.split(",") if origin.strip()] if allowed_origins_env else []
+
+# Always allow local dev servers
+default_origins = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+]
+
+# Merge: env origins take priority, then defaults
+cors_origins = list(set(allowed_origins + default_origins))
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "https://nutrivision-app-blue.vercel.app",  # Your Live Frontend
-        "http://localhost:5173",                    # Vite dev server
-        "http://localhost:3000",                    # Alternative dev server
-    ],
+    allow_origins=cors_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

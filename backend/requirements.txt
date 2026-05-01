@@ -1,5 +1,6 @@
 fastapi
-uvicorn
+uvicorn[standard]
+gunicorn
 pymongo
 pydantic[email]
 requests
@@ -10,3 +11,4 @@ python-jose[cryptography]
 cloudinary
 google-generativeai
 google-api-python-client
+Pillow
