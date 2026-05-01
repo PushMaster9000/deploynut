@@ -47,10 +47,14 @@ app = FastAPI(
 )
 
 
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 # CORS middleware setup — reads allowed origins from env for deployment flexibility
 allowed_origins_env = os.environ.get("ALLOWED_ORIGINS", "")
-# Split by comma, strip whitespace, AND strip trailing slashes for robustness
-allowed_origins = [origin.strip().rstrip("/") for origin in allowed_origins_env.split(",") if origin.strip()] if allowed_origins_env else []
+# Strip quotes, whitespace, and trailing slashes
+allowed_origins = [origin.strip().strip("'\"").rstrip("/") for origin in allowed_origins_env.split(",") if origin.strip()] if allowed_origins_env else []
 
 # Always allow local dev servers
 default_origins = [
@@ -64,16 +68,23 @@ if not allowed_origins:
 else:
     cors_origins = list(set(allowed_origins + default_origins))
 
-print(f"INFO CORS Allowed Origins: {cors_origins}")
+logger.info(f"CORS Allowed Origins: {cors_origins}")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=cors_origins,
-    # If using wildcard, allow_credentials MUST be False
     allow_credentials=True if cors_origins != ["*"] else False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Debug middleware to log all requests
+@app.middleware("http")
+async def log_requests(request, call_next):
+    if request.method == "OPTIONS":
+        logger.info(f"OPTIONS request to {request.url.path} from {request.headers.get('origin')}")
+    response = await call_next(request)
+    return response
 
 
 # Include routes
